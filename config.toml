@@ -1,5 +1,5 @@
 enable-module-update = true # set this to false if you do not want to receive updates for the module
-parallel-jobs = 1
+parallel-jobs = 4
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
@@ -15,16 +15,6 @@ arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/google-recorder/"
 arch = "arm64-v8a"
 # apkmirror-dpi = "120-640dpi"
-
-[GooglePhotos]
-arch = "arm64-v8a"
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
-uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
-
-[Spotify]
-uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
 
 
 [Boost]
@@ -71,14 +61,12 @@ app-name = "YouTube"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
-build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [Music]
 enabled = false
-build-mode = "both"
 arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
@@ -89,7 +77,6 @@ app-name = "Music"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
-build-mode = "both"
 arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
@@ -98,7 +85,6 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 [Reddit-Morphe]
 app-name = "Reddit"
 rv-brand = "Morphe"
-build-mode = "both"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
@@ -107,7 +93,6 @@ uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 dpi = "120-640dpi"
 
 [GooglePhotos]
-build-mode = "both"
 arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
