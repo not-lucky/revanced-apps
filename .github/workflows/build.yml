@@ -62,7 +62,7 @@ jobs:
       
       - name: Upload release
         env:
-          RGITHUB_TOKEN: ${{ secrets.RGITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.RGITHUB_TOKEN }}
           TAG: ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
           BODY: ${{ steps.get_output.outputs.BUILD_LOG }}
         run: |
